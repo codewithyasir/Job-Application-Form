@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:gray;
+}
+
+.main-container {
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: 5px 0;
+    background-color:white;
+    border-radius: 1rem;
+}
+form{
+    margin: 2rem;
+}
+form input{
+    width: full;
+}
+.form_control{
+    display: grid;
+    gap: 20px;
+}
+label{
+    margin-top: 20px;
+    font-size: 15px;
+}
+input, textarea, select{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: red;
+}
+.button_control{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: transparent solid 2px;
+    transition: 0.3s ease-in;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+h2 span{
+    font-size: 18px;
+}
